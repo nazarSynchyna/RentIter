@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакти</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -11,33 +10,50 @@
 <body>
 
     <header class="header">
-        <nav class="nav">
-            <div class="logo">RentIter</div>
-            <div class="nav-links">
+        <div class="container nav">
+            <b>RentIter</b>
+            <nav>
                 <a href="index.html">Головна</a>
-                <a href="about.html">Про сервіс</a>
-                <a href="team.html">Команда</a>
+                <a href="shop.html">Оренда</a>
+                <a href="about.html">Про нас</a>
                 <a href="contact.html">Контакти</a>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <main class="container">
 
         <h1>Контакти</h1>
 
-        <form class="form">
-            <input type="text" placeholder="Ім'я" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Повідомлення"></textarea>
-            <button class="btn">Надіслати</button>
-        </form>
+        <p>
+            Якщо у вас є питання, пропозиції або ви хочете приєднатись до платформи — напишіть нам.
+            Ми відповідаємо протягом 24 годин.
+        </p>
+
+        <div class="grid-2 section">
+
+            <div class="card">
+                <h2>Контактна інформація</h2>
+                <p>Email: rentiter@gmail.com</p>
+                <p>Телефон: +380 99 123 45 67</p>
+                <p>Україна</p>
+            </div>
+
+            <div class="card">
+                <h2>Написати нам</h2>
+
+                <form>
+                    <input placeholder="Ваше ім’я">
+                    <input placeholder="Email">
+                    <textarea placeholder="Ваше повідомлення"></textarea>
+                    <button class="btn">Надіслати</button>
+                </form>
+
+            </div>
+
+        </div>
 
     </main>
-
-    <footer class="footer">
-        <p>© 2026 RentIter</p>
-    </footer>
 
 </body>
 

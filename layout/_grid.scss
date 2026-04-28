@@ -1,0 +1,15 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section {
+  margin: 60px 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
